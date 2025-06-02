@@ -18,3 +18,15 @@ A	!A   	 not, não
 1	0
 0	1
 
+****************************
+PREFERENCIA DE OPERADORES
+() []            ESQUERDA PARA A DIREITA       << MAIOR PRIORIDADE
+! - ++ --        DIREITA PARA A ESQUERDA
+* / %            ESQUERDA PARA A DIREITA
++ -              ESQUERDA PARA A DIREITA
+< <= > >=        ESQUERDA PARA A DIREITA
+== !=            ESQUERDA PARA A DIREITA
+&&               ESQUERDA PARA A DIREITA
+||               ESQUERDA PARA A DIREITA
+= += -= *= /= %= DIREITA PARA A ESQUERDA
+,                ESQUERDA PARA A DIREITA      <<MENORR PRIORIDADE
